@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tropicai – The AI Built for Speed</title>
+
+  <style>
+    :root {
+      --accent: #2dd6a9;
+      --accent-light: #a5ffe6;
+      --bg: #0f0f0f;
+      --text: #ffffff;
+      --card: #181818;
+      --gradient: linear-gradient(135deg, #2dd6a9, #38c6ff, #6d5bff);
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+      font-weight: 800;
+    }
+
+    nav a {
+      margin-left: 24px;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+      opacity: 0.8;
+      transition: 0.2s;
+    }
+    nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      padding: 120px 40px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .hero h2 {
+      font-size: 3.2rem;
+      font-weight: 900;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      opacity: 0.9;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 16px 34px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 12px;
+      color: #000;
+      background: var(--accent);
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .button:hover {
+      transform: scale(1.05);
+    }
+
+    .features {
+      margin-top: 100px;
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 30px;
+      border-radius: 16px;
+      border: 1px solid #202020;
+      transition: 0.25s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: var(--accent-light);
+    }
+
+    footer {
+      text-align: center;
+      padding: 60px 0;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Tropicai 🌴</h1>
+    <nav>
+      <a href="https://tropicai-ai.github.io/features">Features</a>
+      <a href="https://tropicai-ai.github.io/smartdisplay">Smart Display Mode</a>
+      <a href="https://tropicai-ai.github.io/docs">Docs</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>The Fastest AI That Feels Alive</h2>
+    <p>
+      Tropicai responds instantly, thinks intelligently, and creates images  
+      in just <strong>2 seconds</strong>. Say hello to a new kind of assistant  
+      — smart, bright, and ready to help.
+    </p>
+    <a class="button" href="#">Try Tropicai</a>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>⚡ Blazing Fast</h3>
+      <p>Requests process at lightning speed, giving you results the moment you need them.</p>
+    </div>
+
+    <div class="card">
+      <h3>🧠 Smarter Than Ever</h3>
+      <p>Powered by Base44, Tropicai understands context deeply and communicates naturally.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎨 2-Second Image Generation</h3>
+      <p>Create stunning visuals instantly — no waiting, no delay.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔊 Smart Display Mode</h3>
+      <p>Activate hands-free mode with a single word: <strong>“Tropical!”</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Tropicai — Built for speed, clarity, and creativity.
+  </footer>
+</body>
+</html>

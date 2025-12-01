@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tropicai – Features</title>
+
+  <style>
+    :root {
+      --accent: #2dd6a9;
+      --accent-light: #a5ffe6;
+      --bg: #0f0f0f;
+      --text: #ffffff;
+      --card: #181818;
+      --gradient: linear-gradient(135deg, #2dd6a9, #38c6ff, #6d5bff);
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+      font-weight: 800;
+    }
+
+    nav a {
+      margin-left: 24px;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+      opacity: 0.8;
+      transition: 0.2s;
+    }
+    nav a:hover {
+      opacity: 1;
+    }
+
+    .hero {
+      padding: 100px 40px 60px 40px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      font-weight: 900;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 40px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 30px;
+      border-radius: 18px;
+      border: 1px solid #202020;
+      transition: 0.25s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: var(--accent-light);
+    }
+
+    .card h3 {
+      font-size: 1.6rem;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 0;
+    }
+
+    .card p {
+      margin-top: 10px;
+      line-height: 1.5;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 60px 0;
+      opacity: 0.6;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Tropicai 🌴</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="smart-display.html">Smart Display Mode</a>
+      <a href="docs.html">Docs</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Explore Tropicai’s Amazing Features</h2>
+    <p>
+      Tropicai isn’t just fast — it’s smart, versatile, and designed to make everything you do simpler and more creative.
+    </p>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>⚡ Blazing Fast Responses</h3>
+      <p>Get answers instantly. Tropicai processes requests in milliseconds, saving you valuable time.</p>
+    </div>
+
+    <div class="card">
+      <h3>🖼 2-Second Image Generation</h3>
+      <p>Create stunning visuals instantly. Generate artwork, concept images, or fun graphics in just 2 seconds.</p>
+    </div>
+
+    <div class="card">
+      <h3>🧠 Smart Conversational AI</h3>
+      <p>Understand context, provide detailed responses, and keep the conversation flowing naturally.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔊 Smart Display Mode</h3>
+      <p>Hands-free operation with the wake-word <strong>“Tropicai!”</strong>. Perfect for home or desktop use.</p>
+    </div>
+
+    <div class="card">
+      <h3>🌐 Multi-Platform</h3>
+      <p>Works seamlessly on desktops, tablets, and smart displays without extra setup.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎨 Creative Tools</h3>
+      <p>From writing to drawing, Tropicai helps you turn ideas into reality quickly and beautifully.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Tropicai — Fast, Smart, and Creative
+  </footer>
+</body>
+</html>
